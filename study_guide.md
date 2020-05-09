@@ -1,9 +1,11 @@
-Algorithms Study Guide
+# Algorithms Study Guide - May
+This is a todo list of problems in areas that I've found particularly difficult
+over the years.
 
-Dynamic Programming Study Guide
+## Dynamic Programming Study Guide
 Based on https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns#Minimum-(Maximum)-Path-to-Reach-a-Target
 
-Minimum (Maximum) Path to Reach a Target
+### Minimum (Maximum) Path to Reach a Target
 - [x] 746. Min Cost Climbing Stairs
 - [x] 64. Minimum Path Sum
 - [x] 322. Coin Change
@@ -21,7 +23,7 @@ Minimum (Maximum) Path to Reach a Target
 - [ ] 174. Dungeon Game Hard
 - [ ] 871. Minimum Number of Refueling Stops Hard
 
- Distinct Ways
+###  Distinct Ways
 - [x] 70. Climbing Stairs easy
 - [x] 63. Unique Paths Medium
 - [x] 1155. Number of Dice Rolls With Target Sum Medium
@@ -36,13 +38,13 @@ Minimum (Maximum) Path to Reach a Target
 - [x] 808. Soup Servings Medium
 - [x] 790. Domino and Tromino Tiling Medium
 - [x] 801. Minimum Swaps To Make Sequences Increasing
-- [ ] 63. Unique Paths II Medium
-- [ ] 576. Out of Boundary Paths Medium
+- [x] 63. Unique Paths II Medium
+- [x] 576. Out of Boundary Paths Medium
 - [ ] 1269. Number of Ways to Stay in the Same Place After Some Steps Hard
 - [ ] 1220. Count Vowels Permutation Hard
 
 
- Merging Intervals
+### Merging Intervals
 - [x] 1130. Minimum Cost Tree From Leaf Values Medium
 - [x] 96. Unique Binary Search Trees Medium
 - [x] 1039. Minimum Score Triangulation of Polygon Medium
@@ -54,11 +56,10 @@ Minimum (Maximum) Path to Reach a Target
 - [x] 375. Guess Number Higher or Lower II Medium
 - [ ] 546. Remove Boxes Hard
 - [ ] 1000. Minimum Cost to Merge Stones Hard
-- [ ] 312. Burst Balloons Hard
+- [x] 312. Burst Balloons Hard
 
 
-
- DP on Strings
+### DP on Strings
 Advance pointers to ends of words, perhaps
 - [x] 1143. Longest Common Subsequence Medium
 - [x] 647. Palindromic Substrings Medium
@@ -71,8 +72,7 @@ Advance pointers to ends of words, perhaps
 - [x] 72. Edit Distance Hard
 
 
-
- Decision Making
+### Decision Making
 - [x] 198. House Robber Easy
 - [x] 121. Best Time to Buy and Sell Stock Easy
 - [ ] 714. Best Time to Buy and Sell Stock with Transaction Fee Medium
@@ -80,17 +80,18 @@ Advance pointers to ends of words, perhaps
 - [ ] 123. Best Time to Buy and Sell Stock III Hard
 - [ ] 188. Best Time to Buy and Sell Stock IV Hard
 
-Increasing subsequence
-- [ ] 300. Longest Increasing Subsequence
-- [ ] 549. Binary Tree Longest Consecutive Sequence II
-- [ ] 673. Number of Longest Increasing Subsequence Medium
+
+### Increasing subsequence
+- [x] 300. Longest Increasing Subsequence
+- [x] 549. Binary Tree Longest Consecutive Sequence II
+- [x] 673. Number of Longest Increasing Subsequence Medium
 
 
-Unclassified
+### Unclassified
 - [ ] 1434. Number of Ways to Wear Different Hats to Each Other
 - [ ] 1035. Uncrossed Lines
 
-Minimax
+### Minimax
 - [x] Nim Game
 - [x] Stone Game
 - [ ] Flip Game II
@@ -100,9 +101,9 @@ Minimax
 - [ ] Cat and Mouse
 
 
-Sliding Window Problems
+## Sliding Window Problems
 
-Strings With Counter
+### Strings With Counter
 * Problem set based on https://medium.com/leetcode-patterns/leetcode-pattern-2-sliding-windows-for-strings-e19af105316b
 - [x] 76. Minimum Window Substring
 	* key insight on this one is probably the idea of negative numbers in the counter, and that you only increase or decrease count for numbers that aren’t negative.
@@ -118,11 +119,10 @@ Strings With Counter
 - [x] 424. Longest Repeating Character Replacement
 - [x] 187. Repeated DNA Sequences
     * this one was pretty easy, but the length tripped me up a bit, actually.  how many windows of length 10 in a string of length 11?  2 obviously, but I was doing range(N-10), which only has one element (because 1 is not inclusive(.  I don’t know it wasn’t easy to see.
-
 - [x] 30. Substring with Concatenation of All Words
 	* key insight on this one was using multiple starting locations.  Base cases were hard
 
-Other
+### Other
 - [x] 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 	* Here’s a post about that one:  https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/discuss/609771/JavaC%2B%2BPython-Deques-O(N)
 	* a key fact on this one is to use properties of the fronts of the queues to determine when to pop.  The decs is always going to have the max so far at the front, and the incs is always going to have the min so far, so pop the fronts whenever those are out of range.
@@ -135,11 +135,13 @@ Other
 - [x] Binary Subarrays With Sum
 - [x] Subarrays with K Different Integers
 	* atMost for the win
-- [ ] Fruit Into Baskets
+- [x] Fruit Into Baskets
 - [ ] Shortest Subarray with Sum at Least K
 - [ ] Minimum Size Subarray Sum
 - [ ] 1425. Constrained Subsequence Sum  
-Stacks
+
+
+## Stacks
 - [x] Minimum Cost Tree From Leaf Values
 - [x] Sum of Subarray Minimums
 - [x] Online Stock Span
@@ -150,14 +152,24 @@ Stacks
 	* key thing here was to remember that just because it's a stack problem doesn't mean there aren't other helpful data structures.
 - [x] Largest Rectangle in Histogram
 - [x] Maximal Rectangle(please do this problem after you solve the above one)
-- [ ] Trapping Rain Water
+- [x] 42. Trapping Rain Water
 - [ ] Remove Duplicate Letters(challenge)
 - [ ] Remove K Digits
 - [ ] Create Maximum Number
 - [ ] 132 Pattern(challenge, instead of focusing on the elements in the stack, this problem focuses on the elements poped from the monotone stack)
 
 
-Matrix
+# Line Sweep
+[ ] 1229.  Meeting Scheduler
+[ ] 1272.  Remove Interval
+[ ] 1288.  Remove Covered Intervals
+[ ] 218. The Skyline Problem 
+[ ] 391. Perfect Rectangle    
+[ ] 850.  Rectangle Area II    
+
+
+## Matrix
 - [x] 54. Spiral Matrix
 - [x] 498. Diagonal Traverse
 - [x] 1424. Diagonal Traverse II
+- [x] 407. Trapping Rain Water II

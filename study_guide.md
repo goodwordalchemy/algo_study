@@ -143,9 +143,13 @@ Advance pointers to ends of words, perhaps
 - [x] Subarrays with K Different Integers
 	* atMost for the win
 - [x] Fruit Into Baskets
-- [ ] Shortest Subarray with Sum at Least K
-- [ ] Minimum Size Subarray Sum
+- [x] Minimum Size Subarray Sum
+- [x] Shortest Subarray with Sum at Least K
+    - follow ups:
+        - [ ] Max Sum of Rectangle No Larger Than K
+        - [ ] Kill Process
 - [ ] 1425. Constrained Subsequence Sum  
+- [ ] Sliding Window Maximum
 
 
 ## Stacks
@@ -175,8 +179,9 @@ Advance pointers to ends of words, perhaps
 [ ] 850.  Rectangle Area II    
 
 
-## Matrix
+## Matrix and Array
 - [x] 54. Spiral Matrix
 - [x] 498. Diagonal Traverse
 - [x] 1424. Diagonal Traverse II
 - [x] 407. Trapping Rain Water II
+- [x] 33. Search in Rotated Sorted Array

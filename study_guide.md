@@ -41,6 +41,7 @@ Based on https://leetcode.com/discuss/general-discussion/458695/dynamic-programm
 - [x] 63. Unique Paths II Medium
 - [x] 576. Out of Boundary Paths Medium
 - [ ] 1269. Number of Ways to Stay in the Same Place After Some Steps Hard
+- [x] 1434. Number of Ways to Wear Different Hats to Each Other
 - [ ] 1220. Count Vowels Permutation Hard
 
 
@@ -54,8 +55,13 @@ Based on https://leetcode.com/discuss/general-discussion/458695/dynamic-programm
 	* Base case is a triangle with two sides. (in top down)
 	* for bottom up, dp[i][j] is dp considering only nodes between i and j, so start with all triangles, then all 4 sided polygons, and so on. until you have everything in array.
 - [x] 375. Guess Number Higher or Lower II Medium
-- [ ] 546. Remove Boxes Hard
-- [ ] 1000. Minimum Cost to Merge Stones Hard
+- [x] 546. Remove Boxes Hard
+- [x] 1001. Minimum Cost to Merge Stones Hard
+    - Follow ups (next challenges on this):
+        - [ ] Sentence Screen Fitting
+        - [ ] Greatest Sum Divisible By 3
+        - [ ] Restore the Array
+        - [ ] 1167. Minimum Cost to Connect Sticks
 - [x] 312. Burst Balloons Hard
 
 
@@ -88,12 +94,12 @@ Advance pointers to ends of words, perhaps
 
 
 ### Unclassified
-- [ ] 1434. Number of Ways to Wear Different Hats to Each Other
 - [ ] 1035. Uncrossed Lines
 
 ### Minimax
 - [x] Nim Game
 - [x] Stone Game
+- [x] Stone Game II
 - [ ] Flip Game II
 - [ ] Can I Win
 - [ ] Predict the Winner
@@ -125,6 +131,7 @@ Advance pointers to ends of words, perhaps
 ### Other
 - [x] 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 	* Here’s a post about that one:  https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/discuss/609771/JavaC%2B%2BPython-Deques-O(N)
+
 	* a key fact on this one is to use properties of the fronts of the queues to determine when to pop.  The decs is always going to have the max so far at the front, and the incs is always going to have the min so far, so pop the fronts whenever those are out of range.
 - [x] Number of Substrings Containing All Three Characters
 	* don't forget that for a counter with a limited amount of elements, you can check equality with another ocunter.

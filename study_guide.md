@@ -2,6 +2,8 @@
 This is a todo list of problems in areas that I've found particularly difficult
 over the years.
 
+* this is a dope cheetsheet: https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4
+
 ## Dynamic Programming Study Guide
 Based on https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns#Minimum-(Maximum)-Path-to-Reach-a-Target
 
@@ -20,7 +22,7 @@ Based on https://leetcode.com/discuss/general-discussion/458695/dynamic-programm
 	* apparently this one is a (2D knapsack problem).  I still don’t fully get how that works, but basically what I did on this one is fill in the portion of a 2d array that is greater than my current amount of zeros and ones with 1 + dp[i-num_zeros][j-num_ones]
 - [x] 221. Maximal Square Medium
 - [ ] 1240. Tiling a Rectangle with the Fewest Squares Hard
-- [ ] 174. Dungeon Game Hard
+- [x] 174. Dungeon Game Hard
 - [ ] 871. Minimum Number of Refueling Stops Hard
 
 ###  Distinct Ways
@@ -69,19 +71,19 @@ Based on https://leetcode.com/discuss/general-discussion/458695/dynamic-programm
 Advance pointers to ends of words, perhaps
 - [x] 1143. Longest Common Subsequence Medium
 - [x] 647. Palindromic Substrings Medium
-- [ ] 516. Longest Palindromic Subsequence Medium
+- [x] 516. Longest Palindromic Subsequence Medium
 - [x] 5. Longest Palindromic Substring Medium
 - [x] 583. Delete Operation for Two Strings Medium
 - [ ] 1092. Shortest Common Supersequence Medium
-- [ ] 712. Minimum ASCII Delete Sum for Two Strings Medium
-- [ ] 115. Distinct Subsequences Hard
+- [x] 712. Minimum ASCII Delete Sum for Two Strings Medium
+- [x] 115. Distinct Subsequences Hard
 - [x] 72. Edit Distance Hard
 
 
 ### Decision Making
 - [x] 198. House Robber Easy
 - [x] 121. Best Time to Buy and Sell Stock Easy
-- [ ] 714. Best Time to Buy and Sell Stock with Transaction Fee Medium
+- [x] 714. Best Time to Buy and Sell Stock with Transaction Fee Medium
 - [ ] 309. Best Time to Buy and Sell Stock with Cooldown Medium
 - [ ] 123. Best Time to Buy and Sell Stock III Hard
 - [ ] 188. Best Time to Buy and Sell Stock IV Hard
@@ -149,7 +151,7 @@ Advance pointers to ends of words, perhaps
         - [ ] Max Sum of Rectangle No Larger Than K
         - [ ] Kill Process
 - [ ] 1425. Constrained Subsequence Sum  
-- [ ] Sliding Window Maximum
+- [x] Sliding Window Maximum
 
 
 ## Stacks
@@ -170,13 +172,19 @@ Advance pointers to ends of words, perhaps
 - [ ] 132 Pattern(challenge, instead of focusing on the elements in the stack, this problem focuses on the elements poped from the monotone stack)
 
 
-# Line Sweep
-[ ] 1229.  Meeting Scheduler
+## Line Sweep
+[x] 1229.  Meeting Scheduler
 [ ] 1272.  Remove Interval
 [ ] 1288.  Remove Covered Intervals
 [ ] 218. The Skyline Problem 
 [ ] 391. Perfect Rectangle    
 [ ] 850.  Rectangle Area II    
+
+## Topo Sort
+[ ] 444. Sequence Reconstruction
+[ ] 269. Alien Dictionary
+[ ] 329. Longest Increasing Path In a Matrix
+[ ] 1203. Sort Items by Groups Respecting Dependencies
 
 
 ## Matrix and Array
@@ -185,3 +193,25 @@ Advance pointers to ends of words, perhaps
 - [x] 1424. Diagonal Traverse II
 - [x] 407. Trapping Rain Water II
 - [x] 33. Search in Rotated Sorted Array
+
+## Greedy
+- [ ] Next Permutation
+- [ ] Split Array into Consecutive Subsequences
+- [ ] Remove duplicate letters
+- [ ] Bag of Tokens
+- [x] Two City Scheduling
+- [ ] Split Concatenated Strings
+- [ ] Jump Game II
+- [ ] Delete Columns to Make Sorted II
+
+## Concurrency
+- [x] Traffic Light Controlled Intersection
+- [ ] Print in Order
+- [ ] Design Bounded Blocking Queue
+- [ ] Fizz Buzz Multithreaded
+- [ ] Print FooBar Alternately
+- [ ] Print Zero Even Odd
+- [ ] The Dining Philosophers
+- [ ] Building H2O
+- [ ] Web Crawler Multithreaded
+

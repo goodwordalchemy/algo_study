@@ -206,7 +206,7 @@ Advance pointers to ends of words, perhaps
 
 ## Concurrency
 - [x] Traffic Light Controlled Intersection
-- [ ] Print in Order
+- [x] Print in Order
 - [ ] Design Bounded Blocking Queue
 - [ ] Fizz Buzz Multithreaded
 - [ ] Print FooBar Alternately
@@ -215,3 +215,18 @@ Advance pointers to ends of words, perhaps
 - [ ] Building H2O
 - [ ] Web Crawler Multithreaded
 
+## All green frequency questions.
+- [ ] Easy (3/4)
+- [ ] Medium (0/14)
+- [ ] Hard (0/28)
+
+## Kickstarts
+- [ ] 2020 A
+- [ ] 2019 H
+- [ ] 2019 G
+- [ ] 2019 F
+- [ ] 2019 E
+- [ ] 2019 D
+- [ ] 2019 C
+- [ ] 2019 B
+- [ ] 2019 A
